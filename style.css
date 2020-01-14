@@ -1,0 +1,23 @@
+.container{
+    border: 2px;
+    border-color: aqua;
+    border-style: dotted;
+}
+.cc{
+ 
+    justify-content: center;
+}
+ 
+/*
+    @font-face {
+      font-family: "Open Sans";
+    src: font-family: url('../Time/Geometry.woff')    format("woff");
+}
+*/
+@font-face {
+  font-family: myFirstFont;
+  src: url('../Time/Geometry.woff');
+}
+.stopwatch{
+    font-family: myFirstFont;
+}
